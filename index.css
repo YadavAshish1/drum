@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat:wght@600&family=Pacifico&family=Roboto:wght@100;300&display=swap');
+body{
+    text-align: center;
+    background-color: rgb(27, 26, 49);
+}
+h1{
+font-size:  5.5rem;
+color: white;
+}
+.drum{
+    height: 120px;
+    width: 120px;
+    color: rgb(201, 27, 94);
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 20px;
+    border: 7px solid rgb(86, 82, 102);
+    border-radius: 15px;
+}
+.w{
+    background-image: url(tom1.png);
+}
+.a{
+background-image: url(tom2.png);
+}
+.s{
+background-image: url(tom3.png);
+}
+.d{
+background-image: url(tom4.png);
+}
+.j{
+background-image: url(snare.png);
+}
+.k{
+background-image: url(crash.png);
+}
+.l{
+background-image: url(kick.png);
+}
+
+footer{
+    margin-top: 300px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* responsive */
+@media only screen and (max-width: 600px) {
+    body{
+        text-align: center;
+        background-color: rgb(27, 26, 49);
+    }
+    h1{
+    font-size:  2.5rem;
+    color: white;
+    }
+    .drum{
+        height: 90px;
+        width: 90px;
+        color: rgb(201, 27, 94);
+        font-size: 2rem;
+        font-weight: bold;
+        padding-top: 20px;
+        border: 5px solid rgb(86, 82, 102);
+        border-radius: 10px;
+    }
+    .w{
+        background-image: url(tom1.png);
+    }
+    .a{
+    background-image: url(tom2.png);
+    }
+    .s{
+    background-image: url(tom3.png);
+    }
+    .d{
+    background-image: url(tom4.png);
+    }
+    .j{
+    background-image: url(snare.png);
+    }
+    .k{
+    background-image: url(crash.png);
+    }
+    .l{
+    background-image: url(kick.png);
+    }
+    
+    footer{
+        margin-top: 200px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+  }
+  
